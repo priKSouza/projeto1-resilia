@@ -1,0 +1,100 @@
+@font-face {
+  font-family: "lol";
+  src: url(./../font/CELTG___.TTF);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.texto-header {
+  margin: 30px auto;
+  color: #fabe02;
+  text-align: center;
+  letter-spacing: 0.4rem;
+}
+
+.texto-header::first-letter {
+  font-size: 80px;
+}
+
+body {
+  font-family: "lol";
+  background-image: url(./../img/fundo1.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jogadores {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 50px;
+}
+
+.foto-card1, .foto-card2, .foto-card3{
+  margin: 20px;
+}
+
+.imagem {
+  width: 150px;
+  border-radius: 100px;
+}
+
+.card1,
+.card2,
+.card3 {
+  margin: 30px;
+}
+
+h3 {
+  text-decoration: none;
+  color: #f2f2f2;
+  font-family: 'lol', Helvetica, sans-serif;
+}
+
+h3:hover {
+  color: #000;
+}
+
+.botao1,
+.botao2,
+.botao3 {
+  background: #000;
+  border: 1px solid #fabe02;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.botao1:hover,
+.botao2:hover,
+.botao3:hover {
+  background-color: #fabe02;
+}
+
+footer {
+  margin-top: 160px;
+  text-align: center;
+  color: #fabe02;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (max-width: 800px) {
+  body {
+    background-position: center;
+  }
+
+  .botao1, .botao2, .botao3{
+    padding: 10px;
+  }
+}
+
+@media (max-width: 595px) {
+  .jogadores {
+    display: flex;
+    flex-direction: column;
+  }
+}
