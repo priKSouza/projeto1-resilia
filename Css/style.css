@@ -27,11 +27,23 @@ body {
   background-size: cover;
 }
 
+main{
+  display: flex;
+  justify-content: center;
+  background-color: #fabe02;
+}
+
+.escolha{
+  font-size: 20px;
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .jogadores {
   display: flex;
   justify-content: center;
   text-align: center;
-  margin: 50px;
+  margin: 30px;
 }
 
 .foto-card1, .foto-card2, .foto-card3{
@@ -49,13 +61,13 @@ body {
   margin: 30px;
 }
 
-h3 {
+a {
   text-decoration: none;
   color: #f2f2f2;
-  font-family: 'lol', Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-h3:hover {
+a:hover {
   color: #000;
 }
 
@@ -76,7 +88,7 @@ h3:hover {
 }
 
 footer {
-  margin-top: 160px;
+  margin-top: 130px;
   text-align: center;
   color: #fabe02;
   font-family: Arial, Helvetica, sans-serif;

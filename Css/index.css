@@ -34,16 +34,16 @@ p {
   margin-bottom: 30px;
 }
 
-.button{
-    padding: 10px;
-    color: #fabe02;
-    font-size:17px;
-    text-decoration: none;
-    border: 1px solid #fabe02;
+.button {
+  padding: 10px;
+  color: #fabe02;
+  font-size: 17px;
+  border-radius: 10px;
+  text-decoration: none;
+  border: 1px solid #fabe02;
 }
 
-.button:hover{
-    border-radius: 10px;
-    background-color: #fabe02;
-    color: #000;
+.button:hover {
+  background-color: #fabe02;
+  color: #000;
 }
