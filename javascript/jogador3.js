@@ -1,14 +1,15 @@
-var resposta = prompt(
-  "Alexandre sabe mais sobre o conteúdo da semana, em aula ele teve a oportunidade de ajudar outros alunos. Ele deve ajudar o grupo, sim ou não?"
-);
-
 function questao1() {
-  if (resposta == "sim") {
-    document.write(`<p>Yes!!! Alexandre sabe trabalhar em equipe.</p>`);
-  } else {
+  var resposta = prompt(
+    "Alexandre está em dúvida de como criar uma lista não ordenada. Você consegue ajudá-lo, qual tag ele precisa usar, ul ou ol?"
+  );
+  if (resposta == "ul") {
     document.write(
-      `<p>Ah não!! Alexandre precisa de umas aulas de Soft com o Thom.</p>`
+      `<div><p>✓ Você sabe como criar uma lista!! Clique em Continue para irmos à próxima pergunta.</p>
+      <button onclick="window.location.href='./../Html/jogador3fase2.html'">Continue</button></div>`
     );
+  } else {
+    document.write(`<div><p>☹ Xiiii, não é essa hein. Mais uma chance pra você!</p>
+    <button onclick="window.location.href='./../Html/jogador3.html'">Tente de novo</button></div>`);
   }
 }
 

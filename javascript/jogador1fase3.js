@@ -5,7 +5,7 @@ function questao3() {
   if (resposta == "sim") {
     document.write(
       `<div><p>✓ Isso!! Você ajudou a Ana a ser uma Resiliente de sucesso. Ela está pronta para garantir uma vaga no mercado de trabalho.</p>
-          <button onclick="window.location.href='./../Html/jogador1fase3.html'">Continue</button></div>`
+          <button onclick="window.location.href='./../Html/fimdejogo.html'">Clique Aqui</button></div>`
     );
   } else {
     window.location.href='./../Html/gameover.html';

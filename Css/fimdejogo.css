@@ -1,0 +1,49 @@
+@font-face {
+  font-family: "lol";
+  src: url(./../font/CELTG___.TTF);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./../img/fundo1.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main {
+  margin: 150px auto;
+  width: 60%;
+  color: #fabe02;
+  text-align: center;
+}
+
+.bem-vindo {
+  margin-bottom: 20px;
+  font-family: "lol";
+  font-size: 40px;
+  letter-spacing: 0.2rem;
+}
+
+p {
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+.button {
+  padding: 10px;
+  color: #fabe02;
+  font-size: 17px;
+  border-radius: 10px;
+  text-decoration: none;
+  border: 1px solid #fabe02;
+}
+
+.button:hover {
+  background-color: #fabe02;
+  color: #000;
+}

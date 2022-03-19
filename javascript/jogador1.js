@@ -17,7 +17,7 @@ questao1();
 
 //como fazer o contador para 3 tentativas de resposta
 
-/*contador = 3;
+/*var contador = 2;
 while(contador >= 1){
   if(resposta.toLowerCase == 'sim'){
   document.write(
