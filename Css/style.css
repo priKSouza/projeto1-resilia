@@ -27,13 +27,13 @@ body {
   background-size: cover;
 }
 
-main{
+main {
   display: flex;
   justify-content: center;
   background-color: #fabe02;
 }
 
-.escolha{
+.escolha {
   font-size: 20px;
   color: #000;
   font-family: Arial, Helvetica, sans-serif;
@@ -46,7 +46,9 @@ main{
   margin: 30px;
 }
 
-.foto-card1, .foto-card2, .foto-card3{
+.foto-card1,
+.foto-card2,
+.foto-card3 {
   margin: 20px;
 }
 
@@ -88,7 +90,7 @@ a:hover {
 }
 
 footer {
-  margin-top: 130px;
+  margin-top: 120px;
   text-align: center;
   color: #fabe02;
   font-family: Arial, Helvetica, sans-serif;
@@ -99,7 +101,9 @@ footer {
     background-position: center;
   }
 
-  .botao1, .botao2, .botao3{
+  .botao1,
+  .botao2,
+  .botao3 {
     padding: 10px;
   }
 }
