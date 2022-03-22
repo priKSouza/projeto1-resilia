@@ -1,15 +1,10 @@
 function questao3() {
-  var resposta = prompt(
-    "Patrick está em dúvida de qual comando usar para subir seu projeto no GitHub. Você consegue ajudá-lo?"
-  );
+  var resposta = prompt("Digite sua resposta aqui");
   if (resposta == "git push") {
-    document.write(
-      `<div><p>✓ Boa Resiliente! Você sabe como mandar seu projeto para o GitHub.</p>
-            <button onclick="window.location.href='./../Html/fimdejogo.html'">Clique aqui</button></div>`
-    );
+    alert("✓ Boa Resiliente! Você sabe como mandar seu projeto para o GitHub.");
+    location.href = "./../Html/fimdejogo.html";
   } else {
-    window.location.href = "./../Html/gameover.html";
+    alert("Você vacilou! Recomece o jogo.");
+    location.href = "./../Html/gameover.html";
   }
 }
-
-questao3();

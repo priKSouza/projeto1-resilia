@@ -1,16 +1,12 @@
 function questao1() {
-  var resposta = prompt(
-    "Patrick finalizou seu exercício e precisa criar seu repositório no Git. Que comando ele utiliza para criar seu repositório?"
-  );
+  var resposta = prompt("Digite o comando aqui");
   if (resposta == "git init") {
-    document.write(
-      `<div><p>✓ Você sabe como iniciar seu repositório. Parabéns!</p>
-        <button onclick="window.location.href='./../Html/jogador2fase2.html'">Continue</button></div>`
-    );
+    alert("✓ Você sabe como iniciar seu repositório. Parabéns!");
+    location.href = "./../Html/jogador2fase2.html";
   } else {
-    document.write(`<div><p>☹ Esse não é o comando correto. Revise suas anotações e tente de novo.</p>
-      <button onclick="window.location.href='./../Html/jogador2.html'">Tente de novo</button></div>`);
+    alert(
+      "☹ Esse não é o comando correto. Revise suas anotações e tente de novo."
+    );
+    location.href = "./../Html/jogador2.html";
   }
 }
-
-questao1();
