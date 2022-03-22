@@ -7,7 +7,7 @@ function questao2() {
       alert("✓ Boa Resiliente. Sabe usar o Git corretamente.");
       location.href = "./../Html/jogador2fase3.html";
     } else {
-      alert("☹ Comando errado Resiliente. Pensa direito e tenta de novo vai.");
+      alert(`☹ Comando errado Resiliente. Pensa direito e tenta de novo vai. Você ainda tem ${contador} tentativas.`);
       contador--;
       location.href = "./../Html/jogador2fase2.html";
       if (contador <= 0) {

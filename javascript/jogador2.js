@@ -8,7 +8,7 @@ function questao1() {
       location.href = "./../Html/jogador2fase2.html";
     } else {
       alert(
-        "☹ Esse não é o comando correto. Revise suas anotações e tente de novo."
+        `☹ Esse não é o comando correto. Revise suas anotações e tente de novo. Você ainda tem ${contador} tentativas.`
       );
       contador--;
 

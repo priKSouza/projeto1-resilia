@@ -10,7 +10,7 @@ function questao2() {
       location.href = "./../Html/jogador1fase3.html";
     } else {
       alert(
-        "☹ Estudar é fundamental, mas o descanso também precisa acontecer."
+        `☹ Estudar é fundamental, mas o descanso também precisa acontecer. Você ainda tem ${contador} tentativas`
       );
       contador--;
       location.href = "./../Html/jogador1fase2.html";
