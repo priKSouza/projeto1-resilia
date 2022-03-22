@@ -1,16 +1,12 @@
 function questao2() {
-  var resposta = prompt(
-    "Alexandre precisa colocar um 'rodapé' na sua página. Com que tag ele consegue fazer isso, usando o small ou o footer?"
-  );
+  var resposta = prompt("Digite aqui sua resposta, só o nome sem o <>");
   if (resposta == "footer") {
-    document.write(
-      `<div><p>✓ A página do Alexandre vai ficar incrível. Vamos para próxima fase?</p>
-            <button onclick="window.location.href='./../Html/jogador3fase3.html'">Continue</button></div>`
+    alert(
+      "✓ A página do Alexandre vai ficar incrível. Vamos para próxima fase?"
     );
+    location.href = "./../Html/jogador3fase3.html";
   } else {
-    document.write(`<div><p>☹ Você esqueceu? Vou te dar outra chance, capricha!</p>
-          <button onclick="window.location.href='./../Html/jogador3fase2.html'">Tente de novo</button></div>`);
+    alert("☹ Você esqueceu? Vou te dar outra chance, capricha!");
+    location.href = "./../Html/jogador3fase2.html";
   }
 }
-
-questao2();

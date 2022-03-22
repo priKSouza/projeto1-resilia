@@ -1,15 +1,12 @@
 function questao3() {
-  var resposta = prompt(
-    "Como o Alexandre consegue inserir uma quebra de linha no seu HTML? Lembre: não precisa por o <>."
-  );
+  var resposta = prompt(" Digite aqui sua resposta, não precisa por o <>.");
   if (resposta == "br") {
-    document.write(
-      `<div><p>✓ Boa Resiliente! Você está caminhando firme para chegar no seu objetivo.</p>
-              <button onclick="window.location.href='./../Html/fimdejogo.html'">Clique aqui</button></div>`
+    alert(
+      "✓ Boa Resiliente! Você está caminhando firme para chegar no seu objetivo."
     );
+    location.href = "./../Html/fimdejogo.html";
   } else {
-    window.location.href = "./../Html/gameover.html";
+    alert("Você vacilou! Recomece o jogo.");
+    location.href = "./../Html/gameover.html";
   }
 }
-
-questao3();
