@@ -12,27 +12,19 @@
 p {
   display: flex;
   justify-content: center;
-  margin: 40px auto;
-  padding: 10px;
+  margin: 30px auto;
+  padding: 15px;
   width: 60%;
-  color: #000;
-  background-color: #fabe02;
+  color: #f2f2f2;
+  background-color: #000;
+  text-align: center;
   font-size: 22px;
   border-radius: 10px;
+  border: 1px solid #fabe02;
 }
 
 div {
   text-align: center;
-}
-
-button {
-  width: 120px;
-  padding: 10px;
-  cursor: pointer;
-  background-color: #fabe02;
-  border: 1px solid #fabe02;
-  border-radius: 5px;
-  font-size: 14px;
 }
 
 body {
@@ -64,14 +56,31 @@ body {
 
 .botao2 {
   background: #000;
-  color: #f2f2f2;
   border: 1px solid #fabe02;
+  color: #fabe02;
   margin: 10px;
   padding: 12px;
   border-radius: 10px;
   font-family: "lol";
   font-size: 16px;
   letter-spacing: 0.2rem;
+}
+
+button {
+  width: 120px;
+  padding: 10px;
+  background: #000;
+  color: #f2f2f2;
+  cursor: pointer;
+  font-size: 17px;
+  border-radius: 10px;
+  text-decoration: none;
+  border: 1px solid #fabe02;
+}
+
+button:hover {
+  background-color: #fabe02;
+  color: #000;
 }
 
 footer {
@@ -87,8 +96,4 @@ footer {
   flex-wrap: wrap;
   align-items: center;
   margin: auto;
-}
-
-.pergunta {
-  text-align: center;
 }

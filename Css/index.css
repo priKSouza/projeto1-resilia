@@ -18,7 +18,6 @@ body {
 main {
   margin: 170px auto;
   width: 60%;
-  color: #fabe02;
   text-align: center;
 }
 
@@ -27,17 +26,24 @@ main {
   font-family: "lol";
   font-size: 40px;
   letter-spacing: 0.2rem;
+  color: #f2f2f2;
+}
+
+strong{
+  color: #fabe02;
 }
 
 p {
   font-size: 25px;
   margin-bottom: 30px;
+  color: #f2f2f2;
 }
 
 .button {
   padding: 10px;
-  color: #fabe02;
-  font-size: 17px;
+  color: #f2f2f2;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
   border-radius: 10px;
   text-decoration: none;
   border: 1px solid #fabe02;
