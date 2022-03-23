@@ -8,8 +8,11 @@ function questao1() {
         "✓ Você sabe como criar uma lista!! Clique em Continue para irmos à próxima pergunta."
       );
       location.href = "./../Html/jogador3fase2.html";
+      break;
     } else {
-      alert(`☹ Xiiii, não é essa hein. Mais uma chance pra você! Você ainda tem ${contador} tentativas.`);
+      alert(
+        `☹ Xiiii, não é essa hein. Mais uma chance pra você! Você ainda tem ${contador} tentativas.`
+      );
       contador--;
       location.href = "./../Html/jogador3.html";
       if (contador <= 0) {

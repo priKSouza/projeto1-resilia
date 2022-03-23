@@ -8,6 +8,7 @@ function questao2() {
         "✓ Boa! Descansar e fazer o que gosta também faz parte do processo."
       );
       location.href = "./../Html/jogador1fase3.html";
+      break;
     } else {
       alert(
         `☹ Estudar é fundamental, mas o descanso também precisa acontecer. Você ainda tem ${contador} tentativas`

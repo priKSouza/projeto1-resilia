@@ -6,6 +6,7 @@ function questao1() {
     if (resposta == "sim") {
       alert("✓ Yes!!! Assim você vai ajudar a Ana a chegar no objetivo.");
       location.href = "./../Html/jogador1fase2.html";
+      break;
     } else {
       alert(
         `☹ Ah não!! Assim a Ana não vai chegar muito longe! Você ainda tem ${contador} tentativas.`

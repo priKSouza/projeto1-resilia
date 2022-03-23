@@ -8,8 +8,11 @@ function questao2() {
         "✓ A página do Alexandre vai ficar incrível. Vamos para próxima fase?"
       );
       location.href = "./../Html/jogador3fase3.html";
+      break;
     } else {
-      alert(`☹ Você esqueceu? Vou te dar outra chance, capricha! Você ainda tem ${contador} tentativas.`);
+      alert(
+        `☹ Você esqueceu? Vou te dar outra chance, capricha! Você ainda tem ${contador} tentativas.`
+      );
       contador--;
       location.href = "./../Html/jogador3fase2.html";
       if (contador <= 0) {
